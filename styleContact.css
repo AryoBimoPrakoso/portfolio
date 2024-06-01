@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+*{
+    font-family:"Tilt Neon", sans-serif;;
+    color: white;
+}
+html {
+    scroll-behavior: smooth;
+}
+header{
+    display: flex;
+    justify-content: center;
+}
+nav{
+    border-radius: 30px;
+    backdrop-filter: blur(10px);
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    background-color: black;
+    width: 50%;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    margin: 20px 0px 20px 0px;
+    z-index: 9999;
+}
+
+ul {
+    list-style: none;
+    text-align: center;
+    margin: 5px;
+    padding: 0;
+}
+
+li {
+    display: inline-block;
+    margin: 20px;
+}
+
+body {
+    background-image: url(./img/bg3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+
+.box {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    border-radius: 30px;
+    backdrop-filter: blur(10px);
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.sizeContact {
+    padding: 50px 0px 30px 0px;
+}
+
+h1 {
+    background:linear-gradient(to right, #86469C,#BC7FCD,#FB9AD1,#FFCDEA);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

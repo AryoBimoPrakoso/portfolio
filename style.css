@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+*{
+    font-family:"Tilt Neon", sans-serif;;
+    color: white;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    background-image: url(./img/bg3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/* Navbar */
+header{
+    display: flex;
+    justify-content: center;
+}
+nav{
+    border-radius: 50px;
+    backdrop-filter: blur(10px);
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    margin: 20px 0px 0px 20px;
+    z-index: 9999;
+}
+
+ul {
+    list-style: none;
+    text-align: center;
+    margin: 5px;
+    padding: 0;
+}
+li {
+    display: inline-block;
+    margin: 20px;
+}
+/* homepage */
+.homePage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 30px;
+}
+.sizeHomePage {
+    border-radius: 30px;
+    backdrop-filter: blur(10px);
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 70%;
+    margin: 20px;
+    max-height: 50%;
+}
+
+h1,h2,h3,li {
+    background:linear-gradient(to right, #86469C,#BC7FCD,#FB9AD1,#FFCDEA);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#foto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#sosmedIcon {
+    gap: 24px;
+}
+
+
+/* ABOUT */
+.about {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#bgAbout {
+    border-radius: 30px;
+    backdrop-filter: blur(10px);
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: 0px 30px 0px 30px;
+    padding: 10px 0px 0px 0px;
+    
+}
+
+#widthAbout {
+    gap: 30px;
+}
+
+
+/* Portfolio */
+.portfolio {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;   
+}
+
+#image {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+img {
+    width: 50%;
+}
